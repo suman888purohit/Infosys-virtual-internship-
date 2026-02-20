@@ -1,0 +1,57 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "domain": "Technology",
+            "id": "Artificial Intelligence"
+        },
+        {
+            "domain": "Medical",
+            "id": "Healthcare"
+        },
+        {
+            "domain": "Technology",
+            "id": "Machine Learning"
+        },
+        {
+            "domain": "Medical",
+            "id": "Medical Diagnosis"
+        },
+        {
+            "domain": "Technology",
+            "id": "Neural Networks"
+        },
+        {
+            "domain": "Medical",
+            "id": "Cancer Detection"
+        },
+        {
+            "domain": "Organization",
+            "id": "Google"
+        }
+    ],
+    "edges": [
+        {
+            "relation": "improves",
+            "source": "Artificial Intelligence",
+            "target": "Healthcare"
+        },
+        {
+            "relation": "supports",
+            "source": "Machine Learning",
+            "target": "Medical Diagnosis"
+        },
+        {
+            "relation": "used_in",
+            "source": "Neural Networks",
+            "target": "Cancer Detection"
+        },
+        {
+            "relation": "invests_in",
+            "source": "Google",
+            "target": "Artificial Intelligence"
+        }
+    ]
+}
